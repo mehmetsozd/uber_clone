@@ -1,4 +1,32 @@
-Tailwind CSS
-Redux
-React navigation
-React native maps
+# Uber Uygulaması
+
+Bu proje, React Native kullanılarak geliştirilen bir Uber benzeri bir uygulamadır. 
+
+## Kullanılan Kütüphaneler
+
+- [Tailwind CSS](https://tailwindcss.com/): Hızlı ve esnek bir şekilde CSS oluşturmak için kullanılan bir kütüphane.
+- [Redux](https://redux.js.org/): React uygulamaları için durum yönetimini kolaylaştıran bir kütüphane.
+- [React Navigation](https://reactnavigation.org/): React Native uygulamaları için gezinme çözümü.
+- [React Native Maps](https://github.com/react-native-maps/react-native-maps): React Native için harita bileşeni.
+
+## Kurulum
+
+1. Projenin klonunu alın:
+
+```bash
+https://github.com/mehmetsozd/uber_clone.git
+Proje dizinine gidin:
+
+bash
+cd uber_clone
+
+Gerekli bağımlılıkları yükleyin:
+bash
+npm install
+
+Uygulamayı başlatın:
+bash
+npm react-native start
+
+Kullanım
+Uygulama başladığında, ana sayfa görüntülenecektir. Burada kullanıcılar, araç çağırma ve harita üzerinde gezinme gibi işlemleri gerçekleştirebilirler.
