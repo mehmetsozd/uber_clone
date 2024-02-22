@@ -37,5 +37,4 @@ Bu proje, React Native kullanılarak geliştirilen bir Uber benzeri bir uygulama
 
 ## Kullanım
 
-Uygulama başladığında, ana sayfa görüntülenecektir. Burada kullanıcılar, araç çağırma ve harita üzerinde gezinme gibi işlemleri gerçekleştirebilirler.
-
+Proje geliştirilme aşamasındadır.
