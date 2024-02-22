@@ -16,18 +16,22 @@ Bu proje, React Native kullanılarak geliştirilen bir Uber benzeri bir uygulama
 ```bash
 https://github.com/mehmetsozd/uber_clone.git
 Proje dizinine gidin:
+$
 
 ```bash
 cd uber_clone
+$
+
 
 Gerekli bağımlılıkları yükleyin:
 ```bash
-
 npm install
+$
 
 Uygulamayı başlatın:
 ```bash
 npm react-native start
+$
 
 Kullanım
 Uygulama başladığında, ana sayfa görüntülenecektir. Burada kullanıcılar, araç çağırma ve harita üzerinde gezinme gibi işlemleri gerçekleştirebilirler.
