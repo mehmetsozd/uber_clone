@@ -17,15 +17,16 @@ Bu proje, React Native kullanılarak geliştirilen bir Uber benzeri bir uygulama
 https://github.com/mehmetsozd/uber_clone.git
 Proje dizinine gidin:
 
-bash
+```bash
 cd uber_clone
 
 Gerekli bağımlılıkları yükleyin:
-bash
+```bash
+
 npm install
 
 Uygulamayı başlatın:
-bash
+```bash
 npm react-native start
 
 Kullanım
