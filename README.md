@@ -8,6 +8,7 @@ Bu proje, React Native kullanılarak geliştirilen bir Uber benzeri bir uygulama
 - [Redux](https://redux.js.org/): React uygulamaları için durum yönetimini kolaylaştıran bir kütüphane.
 - [React Navigation](https://reactnavigation.org/): React Native uygulamaları için gezinme çözümü.
 - [React Native Maps](https://github.com/react-native-maps/react-native-maps): React Native için harita bileşeni.
+- [React Native Elements](https://reactnativeelements.com/): React Native için yardımcı bileşenler.
 
 ## Kurulum
 
