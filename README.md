@@ -9,6 +9,8 @@ Bu proje, React Native kullanılarak geliştirilen bir Uber benzeri bir uygulama
 - [React Navigation](https://reactnavigation.org/): React Native uygulamaları için gezinme çözümü.
 - [React Native Maps](https://github.com/react-native-maps/react-native-maps): React Native için harita bileşeni.
 - [React Native Elements](https://reactnativeelements.com/): React Native için yardımcı bileşenler.
+- [React Native Google Places Autocomplete](https://github.com/FaridSafi/react-native-google-places-autocomplete): Arama Kısmı için Otomatik Tamamlama.
+- [React Native Dot Env](https://github.com/goatandsheep/react-native-dotenv): React Native için envanter dosyası.
 
 ## Kurulum
 
