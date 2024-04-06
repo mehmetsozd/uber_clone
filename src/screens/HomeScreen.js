@@ -1,4 +1,4 @@
-import { Image, SafeAreaView, View, Text } from 'react-native'
+import { Image, SafeAreaView, View, Text, ScrollView, FlatList } from 'react-native'
 import React from 'react'
 import tw from "twrnc"
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
@@ -12,8 +12,8 @@ const HomeScreen = () => {
  const dispatch = useDispatch();
 
  return (
-  <SafeAreaView style={tw`bg-white h-full`}>
-   <View style={tw`p-5`}>
+  <SafeAreaView style={tw` h-full`}>
+   <View style={tw`pt-5 pl-5 pr-5`}>
     <Image
      style={{
       width: 100,
@@ -58,10 +58,21 @@ const HomeScreen = () => {
       language: 'tr'
      }}
     />
-    <NavFavourites />
-    <View style={tw`mt-auto border-t-4 border-gray-200`} />
-    <Suggestions />
    </View>
+   <FlatList
+    ListHeaderComponent={
+     <View style={tw`p-5 pt-0`}>
+
+      <NavFavourites />
+      <View style={tw`mt-auto border-t-4 border-gray-200`} />
+      <Suggestions />
+      <View>
+       <Text style={tw`text-black text-xl font-bold `}>Ways to plan with Uber</Text>
+      </View>
+     </View>
+
+    }
+   />
   </SafeAreaView>
  )
 }

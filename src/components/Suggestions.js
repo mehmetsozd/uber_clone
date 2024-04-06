@@ -33,12 +33,12 @@ const data = [
 const Suggestions = () => {
  const navigation = useNavigation();
  return (
-  <View>
+  <View style={tw`pt-2 pb-4`}>
    <View style={tw`mt-2 flex flex-row justify-between items-center`}>
-    <Text style={tw` text-2xl font-bold text-black `}>
+    <Text style={tw` text-xl font-bold text-black `}>
      Öneriler
     </Text>
-    <Text style={tw`text-gray-500 text-lg font-semibold `}>
+    <Text style={tw`text-gray-500  font-semibold `}>
      Hepsi
     </Text>
    </View>
@@ -51,9 +51,9 @@ const Suggestions = () => {
      <TouchableOpacity
       onPress={() => {
        navigation.navigate(item.screen);
-      }}
-      style={tw`p-3 bg-gray-200 m-2 rounded-2`}>
-      <View>
+      }}>
+      <View
+       style={tw`p-3 bg-gray-200 m-2 rounded-2`}>
        <Image
         style={{
          width: 50,
@@ -65,6 +65,7 @@ const Suggestions = () => {
         }}
        />
       </View>
+      <Text style={tw`text-center text-black font-semibold`}>{item.title}</Text>
      </TouchableOpacity>
     )
     }
