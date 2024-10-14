@@ -19,7 +19,7 @@ const HomeScreen = () => {
   const dispatch = useDispatch();
 
   return (
-    <SafeAreaView style={tw` h-full`}>
+    <SafeAreaView style={{backgroundColor: 'white', flex: 1}}>
       <View style={tw`pt-5 pl-5 pr-5`}>
         <Image
           style={{
@@ -43,7 +43,7 @@ const HomeScreen = () => {
           nearbyPlacesAPI="GooglePlacesSearch"
           debounce={400}
           returnKeyType={'search'}
-          placeholder="Nereye?"
+          placeholder="Nereden?"
           fetchDetails={true}
           enablePoweredByContainer={false}
           minLength={2}
